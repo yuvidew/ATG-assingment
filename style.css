@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cormorant+SC:wght@500&family=Gentium+Book+Plus:ital@0;1&family=Lora:ital,wght@0,500;0,600;1,400&family=Merriweather:ital,wght@1,400;1,900&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,400;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bona Nova', serif;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+html{
+    font-size: 60%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    height: 10rem;
+}
+
+.theNavCont{
+    width: 90% !important;
+    margin: auto;
+}
+
+.theSps{
+    padding: 0;
+    margin: auto;
+}
+
+.ATG{
+    color: #27A365;
+}
+.RLD{
+    color: #5C5D5D;
+}
+
+.searchPlace::placeholder{
+    color: #5C5C5C;
+}
+
+.theSearchForm{
+    background: #F2F2F2;
+    padding: 1.6rem;
+    width: 83%;
+    border-radius: 10rem;
+}
+
+.theSearchForm > .icon{
+    margin-top: .1rem;
+}
+
+.searchPlace{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.6rem;
+    font-family: 'IBM Plex Sans' , sans-serif;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hero{
+    height: 48rem;
+    background: linear-gradient(#19191980, #19191980) , url('https://s3-alpha-sig.figma.com/img/756e/302b/7d56a759ac56bc165f65c40094aba4e8?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E3by9vNMc6lKEWdzJ421PRMV-~ycR050iFi~-RpMPnHlOgPxlykMqxnZXvPvovvipyN6fN9xVFMTUagg8YMOtkXYN4XxtCK8-j~8Ln4eztihYnP9gr523yTY1yEqvWRmGR-TCbDh6WXsLDqT08ntzKk0kP1lChoUXAhwkzjx~jjasPzW4K0xtKqceEcpLv0qOx37T-5MRmRF-~BtLb90VezVJlwfAHEyK9nauSr395z4TpBJfNRbKz1gaKv6r85PSBdMnxA7OpOrmJOGxeNViYdy7Oowy94YNdTNewUsWnaOUKWtoiB6hLcgC8A4IZ4ik61L9mT5HH~pZSlS5-d-Rw__') , no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.textCont{
+    color: #fff;
+    width: 90%;
+    margin:auto ;
+}
+
+.textCont > h1{
+    font-size: 5rem;
+}
+
+.textCont > p{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.thePostCont{
+    width: 76%;
+    margin:auto ;
+}
+
+.theTeb{
+    border-bottom:2px solid #E0E0E0 ;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #fff;
+}
+
+.theTeb > ul{
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.7rem;
+}
+
+.firstTabs{
+    color: #000;
+    position: relative;
+}
+.theLine{
+    position: absolute;
+    top: 160%;
+    height: .2rem;
+    background-color: #000;
+
+}
+
+.nextTabs{
+    color: #8A8A8A;
+}
+
+.btnBox{
+    margin-top: -2rem;
+}
+
+.theBtnWritePost > span{
+    font-size: 1.4rem;
+}
+
+.leavBtn > span{
+    color: #6A6A6B;
+}
+
+.card > img{
+    height: 220px;
+}
+
+.morebtn{
+    width: 2rem;
+}
+
+.card .dec{
+    font-size: 1.4rem;
+    color: #5C5C5C;
+}
+
+.thePsidtuon{
+    position: relative;
+}
+
+.theMenu{
+    position: absolute !important;
+    left: -400%;
+    top: 120%;
+}
+
+.userImgText > h4{
+    margin-top: 1;
+    font-weight: bold;
+}
+
+.theImg{
+    width: 5rem;
+    object-fit: cover;
+    height: 5rem;
+}
+
+.thePOstContBoxData{
+    width: 85%;
+}
+
+.theckjsb{
+    height: 7rem;
+    
+}
+
+.theSecondBox{
+    height: 4rem;
+    width: 80%;
+    margin-right: 0;
+}
+
+.theInput{
+    border-bottom:1px solid #B8B8B8 ;
+}
+
+.theInput{
+    outline: none;
+}
+
+.theInput::placeholder{
+    color: #000;
+}
+
+.theFolloBtn{
+    width: 8rem;
+    background: #EDEEF0 !important;
+    color: #000 !important;
+}
+
+.theLoginCont{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 100%;
+    background: #0000008a;
+}
+
+.theMain{
+    width: 56%;
+
+}
+
+.topText{
+    height: 5.6rem;
+}
+
+.whvf{
+    font-size: 2.5rem;
+}
+
+.theLoginInput{
+    border: 1px solid #D9D9DB;
+    outline: none;
+}
+
+
+.facebook{
+    width: 2rem;
+    height: 2rem;
+}
+
+.thePostBtn{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 10%;
+    top: auto;
+    left: 90%;
+    z-index: 50;
+}
+
+@media (max-width : 992px){
+    .textCont > h1{
+        font-size: 3rem !important;
+    }
+
+    .theMain{
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
